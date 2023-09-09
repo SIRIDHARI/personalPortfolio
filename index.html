@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> <div class="container">   
+      <p><h1> TEMPERATURE CONVERTER!!!</h1></p>
+    <table >
+      <tr>
+  <td class="row"> <h3 class="h3">Enter value :</h3><br>
+      <input id="enteredValue" type="text" size="30" height="20"></td>
+  <td class="row"> <h3 class="h3">Converted Value is :</h3> <br>
+      <input id="answer" type="text" size="30" height="20"></td>
+      </tr>
+      <tr> 
+          <td class="row" class="from">
+               <select name="Degree" id="DegreeIdInput">
+                  <option value="select">select</option>
+                  <option value="Celcius">Celcius</option>
+                  <option value="Fahrenheit">Fahrenheit</option>
+               </select> </td>
+          <td class="row" class="to">
+              <select name="Degree" id="DegreeIdOutput">
+                  <option value="select">select</option>
+                  <option value="Celcius">Celcius</option>
+                  <option value="Fahrenheit">Fahrenheit</option>
+               </select> </td> </td>
+      </tr>
+    </table>  <br>
+  <button id="find">FIND</button></div>
+
+  <script src="script.js"></script> 
+</body>
+</html>

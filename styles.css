@@ -1,0 +1,23 @@
+body{
+    background-color: ivory;
+}
+.row{
+  padding-right : 25px;
+}
+select{
+    height: 20px;
+    width: 237px;
+}
+.h3{
+    padding-right : 25px;   
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Make the container take the full viewport height */
+}
+#find{
+    background-color:darkgreen;
+}
